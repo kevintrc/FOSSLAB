@@ -1,0 +1,5 @@
+mkdir command in Linux allows the user to create directories
+ This command can create multiple directories at once as well as set the permissions for the directories
+-v or --verbose: It displays a message for every directory created.
+-p: A flag which enables the command to create parent directories as necessary. If the directories exist, no error is specified. 
+-m: This option is used to set the file modes, i.e. permissions, etc. for the created directories. The syntax of the mode is the same as the chmod command. 

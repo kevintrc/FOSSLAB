@@ -1,0 +1,11 @@
+curl is a command line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP or FILE)
+The most basic uses of curl is typing the command followed by the URL.
+ curl can transfer multiple file at once
+-o : saves the downloaded file on the local machine with the name provided in the parameters
+-O : This option downloads the file and saves it with the same name as in the URL
+-C – : This option resumes download which has been stopped due to some reason. This is useful when downloading large files and was interrupted
+–limit-rate : This option limits the upper bound of the rate of data transfer and keeps it around the given value in bytes
+-u : curl also provides options to download files from user authenticated FTP servers
+-T : This option helps to upload a file to the FTP server
+–libcurl :This option is very useful from a developers perspective. If this option is appended to any cURL command, it outputs the C source code that uses libcurl for the specified option. It is the code similar to the command line implementation
+-x, –proxy : curl also lets us use a proxy to access the URL. 

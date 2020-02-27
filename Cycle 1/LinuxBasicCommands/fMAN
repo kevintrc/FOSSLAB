@@ -1,0 +1,8 @@
+man command in Linux is used to display the user manual of any command that we can run on the terminal
+No Option: It displays the whole manual of the command.
+Section-num: Since a manual is divided into multiple sections so this option is used to display only a specific section of a manual.
+-f option: One may not be able to remember the sections in which a command is present. So this option gives the section in which the given command is present.
+-a option: This option helps us to display all the available intro manual pages in succession.
+-k option: This option searches the given command as a regular expression in all the manuals and it returns the manual pages with the section number in which it is found.
+-w option: This option returns the location in which the manual page of a given command is present.
+-I option: It considers the command as case sensitive.

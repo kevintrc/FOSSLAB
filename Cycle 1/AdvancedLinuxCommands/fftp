@@ -1,0 +1,5 @@
+FTP (File Transfer Protocol) is a standard network protocol used to transfer files to and from a remote network.
+To open an ftp connection to a remote system use the ftp command followed by the remote server IP address or domain name
+cd - change directory on the remote machine.
+mget - copy multiple files from the remote to the local machine.
+Once you are done uploading files to your remote FTP server close the connection with bye or quit.
